@@ -124,9 +124,6 @@ body {
     top: 50%;
     transform: translateY(-50%);
     width: 100%; }
-    @media (max-width: 37.5em) {
-      .navigation-list {
-        top: 25%; } }
     .navigation-list li {
       width: 14%; }
       @media (max-width: 37.5em) {
@@ -153,7 +150,7 @@ body {
           margin-right: 35px; } }
       @media (max-width: 56.25em) {
         .navigation .list-item-left {
-          margin-right: 30px; } }
+          margin-right: 32.5px; } }
       @media (max-width: 37.5em) {
         .navigation .list-item-left {
           margin-right: 30px; } }
@@ -191,6 +188,9 @@ body {
     @media (max-width: 75em) {
       .top-menu-infos-list li {
         margin-left: 1rem; } }
+    @media (max-width: 56.25em) {
+      .top-menu-infos-list li {
+        margin-left: .75rem; } }
     @media (max-width: 37.5em) {
       .top-menu-infos-list li {
         margin-left: .5rem; } }
@@ -205,9 +205,9 @@ body {
         font-size: 1.5rem; } }
     @media (max-width: 37.5em) {
       .top-menu-infos-list li a {
-        font-size: 2.4rem; } }
+        font-size: 2rem; } }
   .top-menu-infos-list li a:hover {
-    font-size: 1.7rem; }
+    font-size: 2.3rem; }
   .top-menu-navigation-list li {
     display: inline-block;
     color: orange; }
@@ -224,6 +224,6 @@ body {
     @media (max-width: 37.5em) {
       .top-menu-navigation-list li a {
         margin-right: .5rem;
-        font-size: 2.4rem; } }
+        font-size: 2rem; } }
   .top-menu-navigation-list li a:hover {
     font-size: 20px; }

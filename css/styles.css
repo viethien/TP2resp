@@ -44,8 +44,7 @@ body {
   padding: 3rem; }
   @media (max-width: 56.25em) {
     .content1 {
-      height: auto;
-      padding: 3rem; } }
+      height: auto; } }
   .content1-col1, .content1-col2, .content1-col3 {
     display: inline-block;
     width: 30%; }
@@ -116,14 +115,23 @@ body {
   position: relative;
   border: 1px solid #333;
   border-bottom: 3px solid #333; }
+  @media (max-width: 37.5em) {
+    .navigation {
+      height: 13rem; } }
   .navigation-list {
     display: inline-block;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     width: 100%; }
+    @media (max-width: 37.5em) {
+      .navigation-list {
+        top: 40%; } }
     .navigation-list li {
       width: 14%; }
+      @media (max-width: 37.5em) {
+        .navigation-list li {
+          width: 13%; } }
     .navigation-list li a {
       text-decoration: none;
       color: #111;

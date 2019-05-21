@@ -1,0 +1,26 @@
+.footer {
+  background-color: $color-dark3;
+  height: 3rem;
+  text-align: center;
+
+  &-text {
+    color: $color-white;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6rem;
+
+    @include respond(tab-land) {
+      font-size: 2rem;
+    }
+
+    @include respond(phone) {
+      font-size: 3rem;
+    }
+  }
+}
+
+#footer-text2 {
+  color: $color-orange;
+}

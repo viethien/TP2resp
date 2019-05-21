@@ -1,0 +1,68 @@
+.navigation {
+  background-image: linear-gradient($color-orange, $color-yellow);
+  height: 12rem;
+  text-align: center;
+  position: relative;
+  border: 1px solid $color-dark3;
+  border-bottom: 3px solid $color-dark3;
+
+
+  &-list {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+
+    & li {
+      width: 14%;
+    }
+
+    & li a{
+      // margin-right: 12rem;
+      text-decoration: none;
+      color: $color-dark1;
+      font-size: 1.7rem;
+      font-weight: bold;
+      transition: all .2s;
+    }
+  }
+
+  &-list li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  &-list li a:hover {
+    color: $color-purple;
+    font-size: 1.8rem;
+  }
+
+  .list-item {
+    margin-top: .5rem;
+
+    &-left {
+      margin-right: 50px;
+
+      @include respond(tab-land) {
+        margin-right: 35px;
+      }
+
+      @include respond(tab-port) {
+        margin-right: 30px;
+      }
+    }
+
+    &-right {
+      margin-left: 50px;
+
+      @include respond(tab-land) {
+        margin-left: 35px;
+      }
+
+      @include respond(tab-port) {
+        margin-left: 30px;
+      }
+    }
+  }
+}

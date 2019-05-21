@@ -50,9 +50,18 @@ body {
     width: 30%; }
     @media (max-width: 56.25em) {
       .content1-col1, .content1-col2, .content1-col3 {
+        width: 80%;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 50px; } }
+    @media (max-width: 37.5em) {
+      .content1-col1, .content1-col2, .content1-col3 {
         width: 100%;
         padding: 0;
         margin-top: 20px; } }
+  .content1-col2 {
+    margin-left: 4%;
+    margin-right: 4%; }
   .content1-col-head {
     color: white;
     font-size: 2rem;

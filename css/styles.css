@@ -126,7 +126,7 @@ body {
     width: 100%; }
     @media (max-width: 37.5em) {
       .navigation-list {
-        top: 40%; } }
+        top: 30%; } }
     .navigation-list li {
       width: 14%; }
       @media (max-width: 37.5em) {
@@ -152,6 +152,9 @@ body {
         .navigation .list-item-left {
           margin-right: 35px; } }
       @media (max-width: 56.25em) {
+        .navigation .list-item-left {
+          margin-right: 30px; } }
+      @media (max-width: 37.5em) {
         .navigation .list-item-left {
           margin-right: 30px; } }
     .navigation .list-item-right {

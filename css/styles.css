@@ -50,7 +50,7 @@ body {
     width: 30%; }
     @media (max-width: 56.25em) {
       .content1-col1, .content1-col2, .content1-col3 {
-        width: 80%;
+        width: 85%;
         padding: 0;
         margin-top: 20px;
         margin-bottom: 50px; } }
@@ -69,6 +69,9 @@ body {
     text-transform: uppercase; }
     @media (max-width: 56.25em) {
       .content1-col-head {
+        font-size: 2.5rem; } }
+    @media (max-width: 37.5em) {
+      .content1-col-head {
         font-size: 3rem; } }
   .content1-col-content {
     color: white;
@@ -77,6 +80,9 @@ body {
     @media (max-width: 56.25em) {
       .content1-col-content {
         font-size: 2.5rem; } }
+    @media (max-width: 37.5em) {
+      .content1-col-content {
+        font-size: 3rem; } }
 
 .row {
   position: relative;

@@ -121,7 +121,8 @@ body {
 .hero_area_img {
   max-width: 100%;
   height: auto;
-  object-fit: cover; }
+  object-fit: cover;
+  overflow: hidden; }
 
 .navigation {
   background-image: linear-gradient(orange, yellow);
